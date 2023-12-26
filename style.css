@@ -1,2 +1,62 @@
-header {
+@font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+}
+
+body {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: #1f2937;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 0px;
+  margin: 0;
+}
+
+li.Logo {
+  margin-right: auto;
+}
+
+nav a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.Logo a {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero .hero-main-text {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.hero .hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+footer {
+  background-color: #1f2937;
 }
